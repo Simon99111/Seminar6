@@ -6,7 +6,7 @@ public class Shares
     }
 
 
-    int[] RandomArray(int Length) //Заполнение массива случайными числами - Семён
+    public static int[] RandomArray(int Length) //Заполнение массива случайными числами - Семён
     {
         int[] arr = new int[Length];
         for (int i = 0; i < Length; i++)
